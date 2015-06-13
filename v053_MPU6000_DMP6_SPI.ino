@@ -147,12 +147,12 @@
 // roll, pitch, yaw: 0, 0, 0 when in horizontal flight
 // roll/pitch:  0 -> -90 -> 0 -> 90 -> 0
 //        yaw: -180 to +180
-//#define OUTPUT_READABLE_ROLLPITCHYAW
+#define OUTPUT_READABLE_ROLLPITCHYAW
 //
 // uncomment "#define OUTPUT_TEAPOT" if you want output that matches the format used for the
 // InvenSense Teapot demo - do not output anything else or the demo will not work
 // - output looks like garbage, for instance $?h þ  but this is just what is expected 
-#define OUTPUT_TEAPOT
+//#define OUTPUT_TEAPOT
 //
 //
 // ============================================================================================== //
